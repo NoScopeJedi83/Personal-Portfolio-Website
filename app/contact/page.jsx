@@ -14,7 +14,8 @@ import {
   SelectValue 
 } from "@/components/ui/select";
 
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaEvernote } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaHeart } from 'react-icons/fa';
+import Link from 'next/link'; // Import Link from next/link
 
 const info = [
   {
@@ -107,6 +108,16 @@ const Contact = () => {
                 </ul>
               </div>
             </div>
+          </div>
+          {/* Made with Love */}
+          <div className=" mt-14"></div>
+          <div className=" mt-14"></div>
+          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 mt-14">
+            <Link href="https://www.youtube.com/watch?v=q-Y0bnx6Ndw">
+              <span className="flex items-center gap-2 text-white cursor-pointer">
+                Made with <FaHeart className=" text-accent" /> by <div className="text-accent">Atharv Grover</div>
+              </span>
+            </Link>
           </div>
         </motion.section>
     );
