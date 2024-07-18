@@ -1,0 +1,298 @@
+
+{
+    "skills":[
+        {
+        "id":"1",
+        "src":"https://i.ibb.co/myDyKfD/cpp.png",
+        "title":"C++",
+        "description":"Proficient in C++ for high-performance system/software development.",
+        "exp":"Intermediate"
+        },
+        {
+            "id":"2",
+            "src":"https://i.ibb.co/9nWcbpK/javascript.webp",
+            "title":"Java Script",
+            "exp":"Intermediate",
+            "description":"Expertise in JavaScript for dynamic web content and interactive experiences."
+
+            },
+            {
+                "id":"3",
+                "src":"https://i.ibb.co/JB08b7p/node.webp",
+                "title":"NodeJs",
+                "exp":"Biginner",
+                "description":"Skilled in Node.js for server-side JavaScript execution."
+                },
+                {
+                    "id":"4",
+                    "src":"https://i.ibb.co/p1SgGnQ/express.png",
+                    "title":"ExpressJs",
+                    "exp":"Intermediate",
+                    "description":"Proficient in Express.js for developing web and mobile applications with Node.js."
+                    },
+                    {
+                        "id":"5",
+                        "src":"https://i.ibb.co/ZcCzLJp/sql.png",
+                        "title":"SQL",
+                        "exp":"Intermediate",
+                        "description":"Experienced in SQL for managing and querying relational databases."
+                        },
+                        {
+                            "id":"6",
+                            "src":"https://i.ibb.co/RQ9H3Tz/mongo.png",
+                            "title":"MongoDb",
+                            "exp":"Intermediate",
+                            "description":"Skilled in MongoDB, a scalable NoSQL database with a flexible, JSON-like structure."
+                            },
+                            {
+                                "id":"7",
+                                "src":"https://i.ibb.co/jGZ3Q8f/react.png",
+                                "title":"React",
+                                "exp":"Intermediate",
+                                "description":"Expertise in React for building user interfaces with a component-based approach."
+                                },
+                                {
+                                    "id":"8",
+                                    "src":"https://i.ibb.co/DQ2PwT6/html.webp",
+                                    "title":"Html",
+                                    "exp":"Advanced",
+                                    "description":"Well-versed in HTML for web content structuring."
+                                    },
+                                    {
+                                        "id":"9",
+                                        "src":"https://i.ibb.co/nctfB2R/frontend.png",
+                                        "title":"CSS",
+                                        "exp":"Advanced",
+                                        "description":"Proficient in CSS for styling and layout of web pages."
+                                        }
+    ],
+    "portfolio":[
+        {
+            "id":"1",
+            "src":"https://i.ibb.co/BNkjwZr/megacampy.png",
+            "title":"MegaCampy",
+            "description":"MegaCampy lets you create, edit, delete, and review campgrounds with custom pricing.",
+            "gitlink":"https://github.com/Yash9891/Campgrounds",
+            "projectlink":"https://megacampy-yash.onrender.com/"
+        },
+        {
+            "id":"2",
+            "src":"https://i.ibb.co/bQXg4qq/nfilm.png",
+            "title":"Nfilms",
+            "description":"It is an API-based website where you can find information about any of your favourite shows. ",
+            "gitlink":"https://github.com/Yash9891/Nfilms-WatchTvShows",
+            "projectlink":"https://yash9891.github.io/Nfilms-WatchTvShows/"
+        },
+        {
+            "id":"3",
+            "src":"https://i.ibb.co/Qd3cMdM/cartrack.png",
+            "title":"CarTrack",
+            "description":"CarTrack is a visually stunning website dedicated to showcasing various car models. ",
+            "gitlink":"https://github.com/Yash9891/RebelTechs-CarTrack_HACK-O-FEST",
+            "projectlink":"https://cartrack-rebeltechs.netlify.app/"
+        },
+        {
+            "id":"4",
+            "src":"https://i.ibb.co/yPF9ppj/amazonclone.png",
+            "title":"Amazon Clone",
+            "description":"Created a frontend Amazon clone with a stunning UI.",
+            "gitlink":"https://github.com/Yash9891/Amazon-Clone",
+            "projectlink":"https://yash9891.github.io/Amazon-Clone/"
+        }
+       
+        
+    ],
+    "testimonial":[
+        {
+            "id":"1",
+            "count":5,
+            "src":"../src/assets/Photo.jpg",
+            "title":"god",
+            "description":"kuttalioj",
+            "author_name":"Diyano",
+            "author_designation":"System Potn"
+        },
+        {
+            "id":"1",
+            "count":5,
+            "src":"../src/assets/Photo.jpg",
+            "title":"god",
+            "description":"kuttalioj",
+            "author_name":"Diyano",
+            "author_designation":"System Potn"
+        }
+    ],
+    "Education":[
+        {
+            "id":"1",
+            "date":"2018-2019",
+            "institute":"Leelawati Public School",
+            "address":"Pratap Vihar, Ghaziabad",
+            "course":"10th Standard",
+          
+            "percentage":"78.16%"
+
+        },
+        {
+            "id":"2",
+            "date":"2020-2021",
+            "institute":"SBN Public School",
+            "address":"Nandgram, Ghaziabad",
+            "course":"12th Standard",
+          
+            "percentage":"81.2%"
+
+        },
+        {
+            "id":"3",
+            "date":"2021-2025",
+            "institute":"SRM University",
+            "address":"Delhi-Ncr Campus, Ghaziabad",
+            "course":"B-Tech (Cse-Aiml)",
+            
+            "percentage":"CGPA: 9.2"
+
+        }
+    ],
+    "Skills":[
+        {
+            "id":"1",
+            "date":"★★★★",
+            "skillname":"C++",
+            "percentage":"Intermediate",
+            "icon":"FaReact"
+
+        },
+        {
+            "id":"2",
+           
+            "date":"★★★★",
+            "skillname":"Java Script",
+            "percentage":"Intermediate"
+
+        },
+        {
+            "id":"3",
+         
+            "date":"★★★★",
+            "skillname":"Database",
+            "percentage":"Intermediate"
+
+        },
+        {
+            "id":"4",
+         
+            "date":"★★★",
+            "skillname":"NodeJs",
+            "percentage":"Beginner"
+
+
+        },
+        {
+            "id":"5",
+         
+            "date":"★★★",
+            "skillname":"ExpressJs",
+            "percentage":"Beginner"
+
+        },
+        {
+            "id":"3",
+         
+            "date":"★★★",
+            "skillname":"Python",
+            "percentage":"Beginner"
+
+        }
+    ],
+    "Hackathons":[
+        {
+            "id":"1",
+            "date":"LIVE THE CODE 2.0",
+            "address":"Presenting the portfolio website we created in this hackathon.",
+            "percentage":"2023"
+
+        },
+        {
+            "id":"2",
+            "date":"BYTEVERSE'24",
+            "address":"In this Hackathon, we've developed a fullstack chat app.",
+            "percentage":"2024"
+
+        },
+        {
+            "id":"3",
+            "date":"HACK-O-FEST",
+            "address":"In this hackathon, we've created a dynamic car show website.",
+            "percentage":"2024"
+
+        }
+
+    ]
+    ,
+    "Certifications":[
+        {
+        "id":"1",
+        "date":"Machine Learning, ML",
+        "institute":"NPTEL",
+        "address":"Issued Apr 2024",
+        "link":"https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS60S55790048730202674",
+        "percentage":"Show credential"
+        },
+        {
+            "id":"2",
+            "date":"The Web developer Bootcamp",
+            "institute":"Udemy",
+            "address":"Issued Mar 2024",
+            "link":"https://www.udemy.com/certificate/UC-f8e4681b-431c-4389-83db-451f4a4a8a53/",
+            "percentage":"Show credential"
+            },
+            {
+                "id":"3",
+                "date":"Programming, DSA using Python",
+                "institute":"NPTEL",
+                "address":"Issued Oct 2023",
+                "link":"https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS95S3578113910139399",
+                "percentage":"Show credential"
+                },
+                {
+                    "id":"4",
+                    "date":"Programming for Everybody (Python)",
+                    "institute":"Coursera",
+                    "address":"Issued Sep 2023",
+                    "link":"https://www.coursera.org/account/accomplishments/verify/ALJC8MAPUD7V",
+                    "percentage":"Show credential"
+                    }
+
+
+    ],
+    "Personal-Information":[
+        {
+        "id":"1",
+        "date":"▶ Name : Yash",
+        "age":"DOB : 04 Apr, 2002"
+
+
+        },
+        {
+            "id":"2",
+            "date":"▶ Phone : +91 9891558226",
+        "age":"Nationality : Indian"
+            },
+            {
+                "id":"3",
+                "date":"▶ Email : yash042002@gmail.com",
+                "age":"Gender : Male"
+                },
+                {
+                    "id":"4",
+                    "date":"▶ Languages : English, Hindi",
+                    "age":"Hobbies : Movies, Music"
+                    }
+
+
+    ]
+ 
+ 
+    
+}
