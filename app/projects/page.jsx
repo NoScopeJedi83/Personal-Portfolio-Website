@@ -8,7 +8,7 @@ import { BsArrowUpRight, BsGithub } from 'react-icons/bs';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import Link from 'next/link';
 import ProjSliderBtns from '@/components/ProjSliderBtns.jsx';
-import LazyImage from '@/components/LazyImage';
+// import LazyImage from '@/components/LazyImage';
 
 const proj = [
   {
