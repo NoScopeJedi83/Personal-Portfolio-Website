@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef, useState } from 'react';
 import { BsArrowDownRight } from 'react-icons/bs';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -32,12 +33,36 @@ const skills = [
 ]
 
 const Skills = () => {
+  const videoRef = useRef(null);
+  const [videoVisible, setVideoVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setVideoVisible(true);
+      if (videoRef.current) {
+        videoRef.current.play();
+      }
+    }, 2400); // delay in milliseconds (2.4 seconds)
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0 relative">
-      {/* Background image */}
-      
-      <div className="mb-8"></div> {/* Added margin-bottom for gap at the end of the page */}
-      <div className="container mx-auto px-4 md:px-0 mt-10 mb-10">
+      {/* Background video */}
+      <video
+        ref={videoRef}
+        muted
+        className={`absolute top-0 left-0 w-full h-full object-cover z-0 transition-opacity duration-500 ${videoVisible ? 'opacity-100' : 'opacity-0'}`}
+      >
+        <source src="/assets/skillsvid.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Overlay to darken the video */}
+      <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-10"></div>
+
+      <div className="container mx-auto px-4 md:px-0 mt-10 mb-10 relative z-20">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: "easeIn" } }}

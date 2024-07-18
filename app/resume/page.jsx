@@ -242,8 +242,18 @@ const Resume = () => {
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0 relative"
     >
       {/* Video Background */}
+      <video 
+        autoPlay 
+        muted 
+        loop
+        className="absolute inset-0 w-full h-full object-cover z-0 opacity-90"
+      >
+        <source src="/assets/h_background-desktop2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
       {/* Overlay to darken the video for better text readability */}
+      <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
       
 
       <div className="container mx-auto relative z-10">
