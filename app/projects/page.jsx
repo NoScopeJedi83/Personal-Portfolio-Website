@@ -8,7 +8,6 @@ import { BsArrowUpRight, BsGithub } from 'react-icons/bs';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import Link from 'next/link';
 import ProjSliderBtns from '@/components/ProjSliderBtns.jsx';
-// import LazyImage from '@/components/LazyImage';
 
 const proj = [
   {
@@ -118,9 +117,11 @@ const Projects = () => {
               {proj.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
-                    <div className="relative w-full h-[460px] group flex justify-center items-center bg-pink-50/20 overflow-hidden">
+                    <div
+                      className="relative w-full h-[460px] group flex justify-center items-center bg-pink-50/20 overflow-hidden bg-cover bg-center"
+                      style={{ backgroundImage: `url(${project.image})` }}
+                    >
                       <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                      <LazyImage src={project.image} alt={project.title} />
                     </div>
                   </SwiperSlide>
                 );
