@@ -83,7 +83,7 @@ const Contact = () => {
                   {/* textarea */}
                   <Textarea 
                     className="h-[200px]" 
-                    placeholder="Type your message here."
+                    placeholder="Never gonna give you up.."
                   />
                   {/* btn */}
                   <Button size="md" className="max-w-40">
