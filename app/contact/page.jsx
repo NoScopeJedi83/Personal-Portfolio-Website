@@ -60,8 +60,8 @@ const Contact = () => {
                   <p>Have a project in mind? Drop me a mail at my email and lets work the feces out of it.</p>
                   {/* input */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <Input type="text" placeholder="First Name"/>
-                    <Input type="text" placeholder="Last Name"/>
+                    <Input type="text" placeholder="First Name(eg. Rick)"/>
+                    <Input type="text" placeholder="Last Name(eg. Astley)"/>
                     <Input type="email" placeholder="E-mail address"/>
                     <Input type="tel" placeholder="Phone Number"/>
                   </div>
