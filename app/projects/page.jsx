@@ -45,7 +45,7 @@ const proj = [
     category: 'Full-Stack',
     title: 'Dwellio',
     description: 'I worked under a mentor to develop *Dwellio*, an online home space rental platform using React.js, Tailwind CSS, ExpressJS, and MongoDB. The project features a clean and intuitive interface, allowing users to create listings, explore available spaces, and book rentals seamlessly. With a focus on responsiveness and user-friendliness, *Dwellio* ensures a smooth and engaging experience while leveraging secure backend integrations and a scalable database structure to handle dynamic user interactions efficiently.',
-    stack: [{ name: "React.js" }, { name: "Node.js" }, { name: "Tailwinnd CSS" }, { name: "MongoDB" }],
+    stack: [{ name: "React.js" }, { name: "Node.js" }, { name: "Tailwind CSS" }, { name: "MongoDB" }],
     image: "/assets/dwellio.png",
     live: "https://www.example.com/",
     github: "https://github.com/NoScopeJedi83/Dwellio",
