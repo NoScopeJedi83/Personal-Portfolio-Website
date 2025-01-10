@@ -1,22 +1,30 @@
 "use client";
 
 import {
-  FaHtml5, 
-  FaCss3, 
-  FaJs, 
-  FaReact, 
-  FaFigma, 
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaFigma,
   FaNodeJs,
   FaAndroid,
   FaPython,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs, SiCplusplus, SiThreedotjs, SiMicrosoftpowerpoint, SiMysql } from 'react-icons/si';
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiCplusplus,
+  SiThreedotjs,
+  SiMicrosoftpowerpoint,
+  SiMysql,
+} from "react-icons/si";
 
 //about data
 const about = {
-  title: 'About me',
-  description: "Hi, I'm Atharv Grover, a final year student at SRM Institute of Science and Technology and a passionate Full Stack Developer. For the past two years, I've specialized in creating web-based wonders, blending coding artistry with AI to solve real-world challenges through captivating digital experiences.",
+  title: "About me",
+  description:
+    "Hi, I'm Atharv Grover, a final year student at SRM Institute of Science and Technology and a passionate Full Stack Developer. For the past two years, I've specialized in creating web-based wonders, blending coding artistry with AI to solve real-world challenges through captivating digital experiences.",
   info: [
     {
       fieldName: "Name",
@@ -72,7 +80,8 @@ const about = {
 //certification data
 const certifications = {
   title: "My Certifications",
-  description : "Knowledge as Foundation, Skills as Catalyst: Shaping the Digital Frontier",
+  description:
+    "Knowledge as Foundation, Skills as Catalyst: Shaping the Digital Frontier",
   items: [
     {
       Name: "Google for Developers AI-ML Virtual Internship",
@@ -122,28 +131,57 @@ const certifications = {
 //education data
 const education = {
   title: "My Education",
-  description : "Knowledge as Foundation, Skills as Catalyst: Shaping the Digital Frontier",
+  description:
+    "Knowledge as Foundation, Skills as Catalyst: Shaping the Digital Frontier",
   items: [
     {
       institution: "SRM Institute of Science & Technology",
       location: "Delhi-NCR, Ghaziabad, India",
       grades: "CGPA: 9.1",
       course: "B.Tech. (CSE-AIML)",
-      duration: "2021-present"
+      duration: "2021-present",
     },
     {
       institution: "Amity International School",
       location: "Mayur Vihar, Delhi, India",
       grades: "Percentage: 94.2%",
       course: "12th Standard",
-      duration: "2019-2021"
+      duration: "2019-2021",
     },
     {
       institution: "Chinmaya Vidyalaya",
       location: "NTPC Unchahar, distt. Raebareli, Uttar Pradesh",
       grades: "Percentage: 90.2%",
       course: "10th Standard",
-      duration: "till 2019"
+      duration: "till 2019",
+    },
+  ],
+};
+
+// experience data
+const experience = {
+  title: "My Experience",
+  description: "A glimpse of my professional journey and contributions.",
+  items: [
+    {
+      position: "Software Developer Trainee",
+      company: "NTPC Limited",
+      startDate: "August 2024",
+      endDate: "October 2024",
+      duration: "3 months",
+      description:
+        "As a Software Developer Trainee at NTPC, I gained hands-on experience in web development and project management. During this time, I also worked on Dwellio, a home rental website with features like listing creation, exploration, and booking, enhancing my skills in building user-focused solutions.",
+      certificateLink: "https://drive.google.com/file/d/1G8VaBDhxFsNWX1Hnd1fPXRBCkjwQPwTJ/view?usp=sharing",
+    },
+    {
+      position: "Full-Stack Developer Intern",
+      company: "Infosys Springboard",
+      startDate: "October 2024",
+      endDate: "December 2024",
+      duration: "3 months",
+      description:
+        "As a Full Stack Developer, I developed a 'HealthCheckPro', a health diagnostics website using React, Angular, ExpressJS to streamline team collaboration and promote self-care. The platform offers health assessments, wellness tracking, and a space for professionals and users to collaborate, encouraging proactive healthcare.",
+      certificateLink: "https://drive.google.com/file/d/15oalmNWQOrF0BURPBUvwE2kAZcyypm6H/view?usp=sharing",
     },
   ],
 };
@@ -151,100 +189,106 @@ const education = {
 //skills data
 const skills = {
   title: "My Skills",
-  description: "Knowledge as Foundation, Skills as Catalyst: Shaping the Digital Frontier",
+  description:
+    "Knowledge as Foundation, Skills as Catalyst: Shaping the Digital Frontier",
   skillList: [
     {
       icon: <FaHtml5 />,
       name: "HTML 5",
-      Proficiency: "Advanced"
+      Proficiency: "Advanced",
     },
     {
       icon: <FaCss3 />,
       name: "Cascading Style Sheets (CSS3)",
-      Proficiency: "Advanced"
+      Proficiency: "Advanced",
     },
     {
       icon: <FaJs />,
       name: "JavaScript",
-      Proficiency: "Advanced"
+      Proficiency: "Advanced",
     },
     {
       icon: <SiCplusplus />,
       name: "C++",
-      Proficiency: "Advanced"
+      Proficiency: "Advanced",
     },
     {
       icon: <FaPython />,
       name: "Python",
-      Proficiency: "Intermediate"
+      Proficiency: "Intermediate",
     },
     {
       icon: <FaNodeJs />,
       name: "NodeJs",
-      Proficiency: "Beginner"
+      Proficiency: "Beginner",
     },
     {
       icon: <SiThreedotjs />,
       name: "Three.Min.JS",
-      Proficiency: "Beginner"
+      Proficiency: "Beginner",
     },
     {
       icon: <FaReact />,
       name: "React",
-      Proficiency: "Intermediate"
+      Proficiency: "Intermediate",
     },
     {
       icon: <SiNextdotjs />,
       name: "Next.JS",
-      Proficiency: "Intermediate"
+      Proficiency: "Intermediate",
     },
     {
       icon: <SiMysql />,
       name: "SQL",
-      Proficiency: "Intermediate"
+      Proficiency: "Intermediate",
     },
     {
       icon: <FaAndroid />,
       name: "Android Development",
-      Proficiency: "Intermediate"
+      Proficiency: "Intermediate",
     },
     {
       icon: <SiTailwindcss />,
       name: "Tailwind CSS",
-      Proficiency: "Intermediate"
+      Proficiency: "Intermediate",
     },
     {
       icon: <FaFigma />,
       name: "Figma",
-      Proficiency: "Beginner"
+      Proficiency: "Beginner",
     },
     {
       icon: <SiMicrosoftpowerpoint />,
       name: "Presentations",
-      Proficiency: "Advanced"
-    }
+      Proficiency: "Advanced",
+    },
   ],
 };
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'; 
-import { ScrollArea } from '@/components/ui/scroll-area';
-import { motion } from 'framer-motion';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { motion } from "framer-motion";
 
 const Resume = () => {
   return (
-    <motion.div 
-      initial={{ opacity: 0 }} 
+    <motion.div
+      initial={{ opacity: 0 }}
       animate={{
-        opacity: 1, 
-        transition: { delay : 2.4, duration: 0.4, ease: "easeIn" },
-      }} 
+        opacity: 1,
+        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+      }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0 relative"
     >
       {/* Video Background */}
-      <video 
-        autoPlay 
-        muted 
+      <video
+        autoPlay
+        muted
         loop
         className="absolute inset-0 w-full h-full object-cover z-0 opacity-90"
       >
@@ -254,35 +298,54 @@ const Resume = () => {
 
       {/* Overlay to darken the video for better text readability */}
       <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-      
 
       <div className="container mx-auto relative z-10">
-        <Tabs defaultValue="certifications" className="flex flex-col xl:flex-row gap-[60px] relative">
+        <Tabs
+          defaultValue="certifications"
+          className="flex flex-col xl:flex-row gap-[60px] relative"
+        >
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6 z-10 mt-14">
-            <TabsTrigger value="certifications">Certifications</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
-            <TabsTrigger value="skills">Skills</TabsTrigger>
             <TabsTrigger value="about">About me</TabsTrigger>
+            <TabsTrigger value="education">Education</TabsTrigger>
+            <TabsTrigger value="experience">Experience</TabsTrigger>
+            <TabsTrigger value="certifications">Certifications</TabsTrigger>
+            <TabsTrigger value="skills">Skills</TabsTrigger>
+            
           </TabsList>
-          <div className="mb-8"></div> {/* Added margin-bottom for gap at the end of the page */}
+          <div className="mb-8"></div>{" "}
+          {/* Added margin-bottom for gap at the end of the page */}
           {/* content */}
           <div className="min-h-[70vh] w-full relative z-10">
             {/* certifications */}
             <TabsContent value="certifications" className="w-full mt-14 mb-9">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold text-accent">{certifications.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{certifications.description}</p>
+                <h3 className="text-4xl font-bold text-accent">
+                  {certifications.title}
+                </h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {certifications.description}
+                </p>
               </div>
               <div className="mt-8">
                 <ScrollArea className="h-[500px] xl:h-[600px] w-full rounded-lg border border-accent">
                   <div className="flex flex-col gap-10 p-4">
                     {certifications.items.map((item, index) => {
                       return (
-                        <div key={index} className="bg-white/10 p-4 rounded-lg text-white hover:bg-accent/10 transition-all duration-300 group">
+                        <div
+                          key={index}
+                          className="bg-white/10 p-4 rounded-lg text-white hover:bg-accent/10 transition-all duration-300 group"
+                        >
                           <h4 className="text-lg font-bold">{item.Name}</h4>
                           <p className="text-white/60">{item.Issuer}</p>
                           <p className="text-white/60">{item.date}</p>
-                          <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-accent group-hover:underline">View Certificate</a>
+                          <a
+                            href={item.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-accent group-hover:underline"
+                          >
+                            View Certificate
+                          </a>
                         </div>
                       );
                     })}
@@ -294,16 +357,25 @@ const Resume = () => {
             {/* education */}
             <TabsContent value="education" className="w-full mt-14 mb-9">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold text-accent">{education.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{education.description}</p>
+                <h3 className="text-4xl font-bold text-accent">
+                  {education.title}
+                </h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {education.description}
+                </p>
               </div>
               <div className="mt-8">
                 <ScrollArea className="h-[500px] xl:h-[600px] w-full rounded-lg border border-accent">
                   <div className="flex flex-col gap-10 p-4">
                     {education.items.map((item, index) => {
                       return (
-                        <div key={index} className="bg-white/10 p-4 rounded-lg text-white hover:bg-accent/10 transition-all duration-300">
-                          <h4 className="text-lg font-bold">{item.institution}</h4>
+                        <div
+                          key={index}
+                          className="bg-white/10 p-4 rounded-lg text-white hover:bg-accent/10 transition-all duration-300"
+                        >
+                          <h4 className="text-lg font-bold">
+                            {item.institution}
+                          </h4>
                           <p className="text-white/60">{item.location}</p>
                           <p className="text-white/60">{item.grades}</p>
                           <p className="text-white/60">{item.course}</p>
@@ -316,12 +388,74 @@ const Resume = () => {
               </div>
             </TabsContent>
 
+            {/* experience */}
+            <TabsContent value="experience" className="w-full mt-14 mb-9">
+              <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <h3 className="text-4xl font-bold text-accent">
+                  {experience.title}
+                </h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {experience.description}
+                </p>
+              </div>
+              <div className="mt-8">
+                <ScrollArea className="h-[500px] xl:h-[600px] w-full rounded-lg border border-accent">
+                  <div className="flex flex-col gap-10 p-4">
+                    {experience.items.map((item, index) => {
+                      return (
+                        <div
+                          key={index}
+                          className="bg-white/10 p-4 rounded-lg text-white hover:bg-accent/10 transition-all duration-300 group"
+                        >
+                          <h4 className="text-lg font-bold">{item.position}</h4>
+                          <p className="text-white/60">
+                            <span className="font-semibold">Company:</span>{" "}
+                            {item.company}
+                          </p>
+                          <p className="text-white/60">
+                            <span className="font-semibold">Start Date:</span>{" "}
+                            {item.startDate}
+                          </p>
+                          <p className="text-white/60">
+                            <span className="font-semibold">End Date:</span>{" "}
+                            {item.endDate}
+                          </p>
+                          <p className="text-white/60">
+                            <span className="font-semibold">Duration:</span>{" "}
+                            {item.duration}
+                          </p>
+                          <p className="text-white/60">
+                            <span className="font-semibold">Description:</span>{" "}
+                            {item.description}
+                          </p>
+                          {item.certificateLink && (
+                            <a
+                              href={item.certificateLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-accent underline hover:text-accent/70"
+                            >
+                              View Completion Certificate
+                            </a>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                </ScrollArea>
+              </div>
+            </TabsContent>
+
             {/* skills */}
             <TabsContent value="skills" className="w-full h-full mt-14">
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left ">
-                  <h3 className="text-4xl font-bold text-accent">{skills.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
+                  <h3 className="text-4xl font-bold text-accent">
+                    {skills.title}
+                  </h3>
+                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                    {skills.description}
+                  </p>
                 </div>
                 <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
                   {skills.skillList.map((skill, index) => {
@@ -336,7 +470,9 @@ const Resume = () => {
                             </TooltipTrigger>
                             <TooltipContent>
                               <p className="capitalize">{skill.name}</p>
-                              <p className="capitalize text-center">{skill.Proficiency}</p>
+                              <p className="capitalize text-center">
+                                {skill.Proficiency}
+                              </p>
                             </TooltipContent>
                           </Tooltip>
                         </TooltipProvider>
@@ -345,23 +481,33 @@ const Resume = () => {
                   })}
                 </ul>
               </div>
-              <div className="mb-1"></div> {/* Added margin-bottom for gap at the end of the page */}
+              <div className="mb-1"></div>{" "}
+              {/* Added margin-bottom for gap at the end of the page */}
             </TabsContent>
 
             {/* about */}
             <TabsContent value="about" className="w-full mt-14 mb-9">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold text-accent">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
+                <h3 className="text-4xl font-bold text-accent">
+                  {about.title}
+                </h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {about.description}
+                </p>
               </div>
               <div className="mt-8">
                 <ScrollArea className="h-[500px] xl:h-[600px] w-full rounded-lg border border-accent">
                   <div className="flex flex-col gap-10 p-4">
                     {about.info.map((item, index) => {
                       return (
-                        <div key={index} className="bg-white/10 p-4 rounded-lg text-white flex flex-col xl:flex-row justify-between hover:bg-accent/10 transition-all duration-300">
+                        <div
+                          key={index}
+                          className="bg-white/10 p-4 rounded-lg text-white flex flex-col xl:flex-row justify-between hover:bg-accent/10 transition-all duration-300"
+                        >
                           <span className="font-bold">{item.fieldName}</span>
-                          <span className="text-white/60">{item.fieldValue}</span>
+                          <span className="text-white/60">
+                            {item.fieldValue}
+                          </span>
                         </div>
                       );
                     })}
