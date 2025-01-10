@@ -171,7 +171,8 @@ const experience = {
       duration: "3 months",
       description:
         "As a Software Developer Trainee at NTPC, I gained hands-on experience in web development and project management. During this time, I also worked on Dwellio, a home rental website with features like listing creation, exploration, and booking, enhancing my skills in building user-focused solutions.",
-      certificateLink: "https://drive.google.com/file/d/1G8VaBDhxFsNWX1Hnd1fPXRBCkjwQPwTJ/view?usp=sharing",
+      certificateLink:
+        "https://drive.google.com/file/d/1G8VaBDhxFsNWX1Hnd1fPXRBCkjwQPwTJ/view?usp=sharing",
     },
     {
       position: "Full-Stack Developer Intern",
@@ -181,7 +182,8 @@ const experience = {
       duration: "3 months",
       description:
         "As a Full Stack Developer, I developed a 'HealthCheckPro', a health diagnostics website using React, Angular, ExpressJS to streamline team collaboration and promote self-care. The platform offers health assessments, wellness tracking, and a space for professionals and users to collaborate, encouraging proactive healthcare.",
-      certificateLink: "https://drive.google.com/file/d/15oalmNWQOrF0BURPBUvwE2kAZcyypm6H/view?usp=sharing",
+      certificateLink:
+        "https://drive.google.com/file/d/15oalmNWQOrF0BURPBUvwE2kAZcyypm6H/view?usp=sharing",
     },
   ],
 };
@@ -310,7 +312,6 @@ const Resume = () => {
             <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="certifications">Certifications</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
-            
           </TabsList>
           <div className="mb-8"></div>{" "}
           {/* Added margin-bottom for gap at the end of the page */}
@@ -342,7 +343,7 @@ const Resume = () => {
                             href={item.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-accent group-hover:underline"
+                            className="inline-block border-2 border-red-500 text-red-500 py-2 px-4 rounded-md text-sm font-semibold hover:bg-red-500 hover:text-white transition-all duration-300"
                           >
                             View Certificate
                           </a>
@@ -430,13 +431,13 @@ const Resume = () => {
                           </p>
                           {item.certificateLink && (
                             <a
-                              href={item.certificateLink}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-accent underline hover:text-accent/70"
-                            >
-                              View Completion Certificate
-                            </a>
+                            href={item.certificateLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block border-2 border-red-500 text-red-500 py-2 px-4 rounded-md text-sm font-semibold hover:bg-red-500 hover:text-white transition-all duration-300"
+                          >
+                            View Completion Certificate
+                          </a>
                           )}
                         </div>
                       );
