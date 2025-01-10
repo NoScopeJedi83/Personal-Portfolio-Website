@@ -40,6 +40,26 @@ const proj = [
     live: "https://cartrack2.netlify.app/",
     github: "https://github.com/NoScopeJedi83/CarTrack-v2.0",
   },
+  {
+    num: '04',
+    category: 'Full-Stack',
+    title: 'Dwellio',
+    description: 'I worked under a mentor to develop *Dwellio*, an online home space rental platform using React.js, Tailwind CSS, ExpressJS, and MongoDB. The project features a clean and intuitive interface, allowing users to create listings, explore available spaces, and book rentals seamlessly. With a focus on responsiveness and user-friendliness, *Dwellio* ensures a smooth and engaging experience while leveraging secure backend integrations and a scalable database structure to handle dynamic user interactions efficiently.',
+    stack: [{ name: "React.js" }, { name: "Node.js" }, { name: "Tailwinnd CSS" }, { name: "MongoDB" }],
+    image: "/assets/dwellio.png",
+    live: "https://www.example.com/",
+    github: "https://github.com/NoScopeJedi83/Dwellio",
+  },
+  {
+    num: '05',
+    category: 'Full-Stack',
+    title: ' HealthCheckPro: Comprehensive Wellness Tracker',
+    description: 'I collaborated with a team to develop HealthCheckPro, a comprehensive wellness platform utilizing React.js, Express.js, and MongoDB. The platform features an assessment section with over 50 unique questions, designed to provide personalized wellness insights based on user responses. We employed a secure and scalable architecture, integrating JWT authentication and Nodemailer for email notifications. My focus was on building a responsive front-end and ensuring smooth interaction with the back-end. The platforms engaging user experience contributed to a 10% increase in user interaction within its first month of launch, demonstrating the effectiveness of its design and features.',
+    stack: [{ name: "React.js" }, { name: "Tailwind" }, { name: "RadixUI" }, { name: "Express.js" }, { name: "MongoDB" }, { name: "NodeMailer" }, { name: "JWT" }, { name: "Bcrypt" }],
+    image: "/assets/healthcheckpro.png",
+    live: "https://healthcheckpro-infosys-internship.onrender.com/",
+    github: "https://github.com/NoScopeJedi83/HealthCheckPro_Infosys_Internship_Oct2024_Team_03",
+  },
 ];
 
 const Projects = () => {
