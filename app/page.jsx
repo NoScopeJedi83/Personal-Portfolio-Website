@@ -56,7 +56,7 @@ const Home = () => {
               </p>
               {/* btn and socials */}
               <div className="flex flex-col xl:flex-row items-center gap-8">
-                <a href="https://drive.google.com/file/d/1RjXszXIRHh1eL4q9uleMkOuzQ006mrJe/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/17Dtfj1SjE_eTrxlgQaz3OUNSlnSLCOBP/view?usp=sharing">
                   <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
                     <span>Download CV</span>
                     <FiDownload className="text-xl" />
